@@ -1,0 +1,15 @@
+name: BertFastApiEnv
+channels:
+  - anaconda-fusion
+  - defaults
+dependencies:
+  - pip=20.0.2
+  - python=3.7.6
+  - pip:
+    - ktrain==0.8.1
+    - numpy==1.18.1
+    - pandas==0.25.3
+    - tensorflow==2.0.0
+    - fastapi==0.52.0
+    - uvicorn==0.11.3
+
